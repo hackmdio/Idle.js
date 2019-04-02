@@ -1,5 +1,5 @@
 {
-  "name": "@hackmd/idle.js",
+  "name": "@hackmd/idle-js",
   "version": "1.0.0",
   "main": "dist/idle.browser.js",
   "devDependencies": {
