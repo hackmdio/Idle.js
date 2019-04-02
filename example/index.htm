@@ -1,20 +1,19 @@
 <html>
 	<head>
 		<title>Activity.Js Test</title>
-		<script src="../lib/idle.js"></script>
-		
+		<script src="../dist/idle.js"></script>
 		<script>
 			var awayCallback = function(){
 				console.log(new Date().toTimeString() + ": away");
 			};
-			
+
 			var awayBackCallback = function(){
 				console.log(new Date().toTimeString() + ": back");
 			};
 			var onVisibleCallback = function(){
 				console.log(new Date().toTimeString() + ": now looking at page");
 			};
-			
+
 			var onHiddenCallback = function(){
 				console.log(new Date().toTimeString() + ": not looking at page");
 			};
@@ -37,6 +36,6 @@
 		</script>
 	</head>
 	<body>
-		<h1>Check the Console for the Events.</h1>	
+		<h1>Check the Console for the Events.</h1>
 	</body>
 </html>

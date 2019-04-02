@@ -3,7 +3,7 @@
 	<head>
 		<title>Idle.Js Test</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script src="./build/idle.js"></script>
+		<script src="./dist/idle.browser.js"></script>
 		<script>
 			$(function() {
 				function setMessage(msg) {
@@ -22,7 +22,7 @@
 				var visibleCallback = function(){
 					setMessage("User started looking at page again")
 				};
-				
+
 				var idle = new Idle({
 					onHidden : hiddenCallback,
 					onVisible : visibleCallback,
